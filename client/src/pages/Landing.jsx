@@ -8,7 +8,7 @@ export default function Landing() {
   return (
     <Wrapper>
     <nav>
-      <LogoImg className="logo"/>
+      <LogoImg/>
     </nav>
     <div className="container page">
       <div className="info">
@@ -17,7 +17,7 @@ export default function Landing() {
         <Link to="register" className="btn register-link">Register</Link>
         <Link to="register" className="btn login-link">Login / Demo User</Link>
       </div>
-    <MainImg className="img main-img"/>
+    <MainImg/>
     </div>
     </Wrapper>
   )

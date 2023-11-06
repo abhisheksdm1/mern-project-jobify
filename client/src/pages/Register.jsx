@@ -1,10 +1,12 @@
-import { Link } from "react-router-dom";
+import Wrapper from "../assets/wrappers/NewRegister"
+import LogoImg from "../components/logo"
 
 export default function Register() {
   return (
-    <div>
-      <h1>Register</h1>
-      <Link to="/login">Login</Link>
-    </div>
+    <Wrapper>
+      <div className="container">
+        <LogoImg/>
+      </div>
+    </Wrapper>
   )
 }

@@ -1,6 +1,6 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
 // import { Homelayout,Landing,Register } from "./pages"
-import {Homelayout,Landing,Register,Login,Dashboardlayout, Error} from "./pages"
+import {Homelayout,Landing,Register,Login,Dashboardlayout,Error} from "./pages"
 const router = createBrowserRouter([
   {
     path:'/',
@@ -30,6 +30,8 @@ const router = createBrowserRouter([
 
 export default function App() {
   return (
+   <>
    <RouterProvider router={router}/>
+   </>
   )
 }
